@@ -26,7 +26,6 @@ All text above, and the splash screen must be included in any redistribution
 SYSTEM_MODE(MANUAL);  // keep cellular off unless...
 STARTUP(USBSerial1.begin());  // Enable second serial port over USB
 
-
 //int8_t DC, int8_t RST, int8_t CS)
 Adafruit_SSD1306 display(OLED_DC, OLED_RST, OLED_CS);
 
